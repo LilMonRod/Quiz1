@@ -1,0 +1,16 @@
+
+/****************
+      Helpers
+*****************/
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.wrapper-width {
+    max-width: 355px;
+    // max-height: 180px;
+    border: 1px solid #ccc;
+    border-top: 5px solid #333;
+}

@@ -1,0 +1,21 @@
+.tittle-tile {
+    float: right;
+    width: $text-width;
+    max-height: 45px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    @include font-tile;
+    font-weight: bold;
+    font-size: 20px;
+    color: #333;
+}
+.text-tile {
+    float: right;
+    width: $text-width;
+    max-height: 10px;
+    margin-top: 0;
+    margin-bottom: 0px;
+    @include font-tile;
+    font-size: 12px;
+    color: #333;
+}
